@@ -1,0 +1,173 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: "Cairo", sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+img{
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* header */
+
+header{
+    padding: 12px;
+}
+
+header img{
+    width: 66px;
+    height: 57px;
+}
+
+/* End Header */
+
+.log-in{
+    display: grid;
+    justify-content: center;
+}
+
+.log-in .login{
+    width: 564px;
+    height: 756.30126953125px;
+    top: 121.85px;
+    left: 438px;
+    border: 0.3px solid #B9B9B9;
+    border-radius: 24px;
+    padding: 24px;
+    gap: 30px;
+    /* text-align: center; */
+}
+
+.content{
+    width: 516px;
+    height: 626.3px;
+    gap: 24px;
+}
+
+.top-log{
+    text-align: center;
+}
+
+.top-log img{
+    width: 104px;
+    height: 94.3px;
+}
+
+.top-log h2{
+    margin: 0;
+    padding-top: 20px;
+    color: #013B59;
+    size: 28px;
+}
+
+.top-log p{    
+    color: #444444;
+    padding-bottom: 30px;
+    font-weight: 300;
+    line-height: 140%;
+}
+
+.form{
+    width: 516px;
+    height: 250px;
+}
+
+.form label{
+    color: #040404;
+}
+
+.form input{
+    display: block;
+    margin-top: 15px;
+    width: 516px;
+    height: 56px;
+    background-color: #F1F4F9;
+    color: #ADADAD;
+    border: 1px solid #D8D8D8;
+    border-radius: 8px;
+}
+
+.form-group input{
+    padding-right: 10px;
+}
+
+.form-group .label{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.form-group .label a{  
+    color: #676666;
+    font-weight: 700;
+}
+
+/* 
+.form input i{
+    
+}
+
+.btn a{
+    background: #3970AB;
+    background: linear-gradient(90deg,rgba(57, 112, 171, 1) 0%, rgba(86, 176, 160, 1) 100%);
+} */
+.password-wrapper {
+    position: relative;
+}
+
+.eye-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999;
+    cursor: pointer;
+}
+
+.remember-me {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 25px;
+    font-size: 13px;
+    color: #555;
+}
+
+/* .login-btn {
+    width: 100%;
+    padding: 14px;
+    background-color: #3e6663; 
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 20px;
+} */
+.btn-submit{
+    width: 100%;
+    padding: 12px;
+    background-color: #3e6663;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+
+}
